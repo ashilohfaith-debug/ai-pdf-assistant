@@ -1,5 +1,58 @@
-# ai-pdf-assistant
-A simple AI PDF Assistant which can turn long passages into easy summaries
+# AI PDF Companion
+A lightweight AI-powered web application built with Python and Streamlit that enables users to interact with PDF documents through natural language conversations.
 
-Click here: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
+The application extracts text from uploaded PDFs and uses Google Gemini 2.5 Flash to provide context-aware answers, summaries, explanations, and semantic analysis based on document content.
 
+<br/>
+
+Live demo: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
+
+*Built to gain hands-on experience with APIs, PDF processing, prompt engineering, and deploying AI-powered web applications, after learning Python Programming in my second semester at college.*
+
+<br/>
+
+<img width="1919" height="1115" alt="Screenshot 2026-05-16 232830" src="https://github.com/user-attachments/assets/243b6f53-cd12-405f-9dec-531fce9e584e" />
+
+## Tech Stack
+
+- **Language:** Python 3.14.2
+- **Application Framework:** [Streamlit](https://streamlit.io/)
+- **LLM API:** [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+- **PDF Processing:** [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/) 
+
+---
+
+## Local Installation
+
+### Prerequisites
+- Ensure you have Python 3.10 or higher installed on your local machine 
+- Obtain a valid Google Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/ashilohfaith-debug/ai-pdf-assistant.git
+cd ai-pdf-assistant
+```
+
+### Step 2: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Run the Application
+```bash
+streamlit run ai_website.py
+```
+
+---
+
+## Future Improvements
+- Multi-PDF support
+- Chat memory
+- OCR support for scanned PDFs
+- Citation-based responses
+
+---
+
+## License
+This project is open-source and available under the MIT License.
