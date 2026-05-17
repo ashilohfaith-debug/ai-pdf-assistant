@@ -26,7 +26,7 @@ Live demo: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
 
 ### Prerequisites
 - Ensure you have Python 3.10 or higher installed on your local machine 
-- Obtain a valid Google Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+- Obtain a valid Google Gemini API key from [Google AI Studio](https://aistudio.google.com/)
 
 ### Step 1: Clone the Repository
 ```bash
@@ -43,6 +43,9 @@ pip install -r requirements.txt
 ```bash
 streamlit run ai_website.py
 ```
+
+### Additional Information
+Check the available Gemini models for your API by using the code from 'test_models.py' file.
 
 ---
 
