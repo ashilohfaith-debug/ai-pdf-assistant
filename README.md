@@ -7,7 +7,7 @@ The application extracts text from uploaded PDFs and uses Google Gemini 2.5 Flas
 
 Live demo: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
 
-*Built to gain hands-on experience with APIs, PDF processing, prompt engineering, and deploying AI-powered web applications, after learning Python Programming in my second semester at college.*
+*Built to gain hands-on experience with APIs, PDF processing, prompt engineering, and deploying web applications, after learning Python Programming in my second semester at college.*
 
 <br/>
 
@@ -15,8 +15,8 @@ Live demo: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
 
 ## Tech Stack
 
-- **Language:** Python 3.14.2
-- **Application Framework:** [Streamlit](https://streamlit.io/)
+- **Language:** Python v3.14.2
+- **Application Framework:** [Streamlit](https://streamlit.io/) v1.57.0
 - **LLM API:** [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
 - **PDF Processing:** [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/) 
 
