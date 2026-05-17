@@ -4,6 +4,16 @@ import PyPDF2
 
 # Set up the web page interface
 st.title("Your AI PDF Companion")
+st.caption("Upload a PDF and get quick summaries from Gemini")
+
+st.markdown("""
+### How to use
+1. Enter your Gemini API key in the sidebar  
+2. Upload a PDF document (Up to 200 MB supported)
+3. Ask questions about the document
+""")
+
+st.sidebar.subheader("API Configuration")
 
 api_key = st.sidebar.text_input(
     "Enter your Gemini API Key",
@@ -12,7 +22,7 @@ api_key = st.sidebar.text_input(
 
 # Upload the PDF file
 uploaded_file = st.file_uploader(
-    "Upload a PDF",
+    "",
     type="pdf"
 )
 
@@ -58,7 +68,8 @@ if uploaded_file and api_key:
         """
 
         # Generate response
-        response = model.generate_content(prompt)
+        with st.spinner("Analyzing document and generating response..."):
+            response = model.generate_content(prompt)
 
         # Display answer
         st.write(response.text)
