@@ -11,7 +11,7 @@ Live demo: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
 
 <br/>
 
-<img width="1919" height="1115" alt="Screenshot 2026-05-16 232830" src="https://github.com/user-attachments/assets/243b6f53-cd12-405f-9dec-531fce9e584e" />
+https://github.com/user-attachments/assets/02ce20a6-2566-41ec-acaf-1dd0d82d9925
 
 ## Tech Stack
 
