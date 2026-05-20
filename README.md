@@ -28,6 +28,8 @@ https://github.com/user-attachments/assets/02ce20a6-2566-41ec-acaf-1dd0d82d9925
 - Ensure you have Python 3.10 or higher installed on your local machine 
 - Obtain a valid Google Gemini API key from [Google AI Studio](https://aistudio.google.com/)
 
+https://github.com/user-attachments/assets/5c4c32d7-c116-4b50-93e8-dbd64133a0fb
+
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/ashilohfaith-debug/ai-pdf-assistant.git
