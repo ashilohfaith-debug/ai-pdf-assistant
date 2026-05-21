@@ -13,6 +13,8 @@ Live demo: https://ai-pdf-assistant-8hymgebtssqcbtr46bxqtw.streamlit.app/
 
 https://github.com/user-attachments/assets/02ce20a6-2566-41ec-acaf-1dd0d82d9925
 
+---
+
 ## Tech Stack
 
 - **Language:** Python v3.14.2
@@ -58,6 +60,9 @@ Check the available Gemini models for your API by using the code from 'test_mode
 ### Just so you know, no project is built error-free.
 Here is one of the errors I ran into while building this project:
 <img width="1196" height="397" alt="Screenshot 2026-05-16 194432" src="https://github.com/user-attachments/assets/bfe41daa-2204-44f0-9ccc-20c43ad00ebc" />
+
+**The fix:** <br/>
+Whenever you deploy a Python app to the cloud, you must include a special file called 'requirements.txt.' This acts as a shopping list for the cloud server so it knows what libraries to download.
 
 ---
 
