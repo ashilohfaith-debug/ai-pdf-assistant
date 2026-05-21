@@ -51,6 +51,9 @@ streamlit run ai_website.py
 ### Additional Information
 Check the available Gemini models for your API by using the code from 'test_models.py' file.
 
+### Just so you know, no project is built error-free
+<img width="1275" height="503" alt="Screenshot 2026-05-16 194432" src="https://github.com/user-attachments/assets/246473c1-5635-4d9b-ad74-c56e097ccc3d" />
+
 ---
 
 ## Future Improvements
