@@ -32,6 +32,8 @@ https://github.com/user-attachments/assets/02ce20a6-2566-41ec-acaf-1dd0d82d9925
 
 https://github.com/user-attachments/assets/5c4c32d7-c116-4b50-93e8-dbd64133a0fb
 
+<br/>
+
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/ashilohfaith-debug/ai-pdf-assistant.git
@@ -48,8 +50,12 @@ pip install -r requirements.txt
 streamlit run ai_website.py
 ```
 
+<br/>
+
 ### Additional Information
 Check the available Gemini models for your API by using the code from 'test_models.py' file.
+
+<br/>
 
 ### Just so you know, no project is built error-free
 Here is one of the errors I ran into while building this project:
