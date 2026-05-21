@@ -55,7 +55,7 @@ Check the available Gemini models for your API by using the code from 'test_mode
 
 <br/>
 
-### Just so you know, no project is built error-free
+### Just so you know, no project is built error-free.
 Here is one of the errors I ran into while building this project:
 <img width="1196" height="397" alt="Screenshot 2026-05-16 194432" src="https://github.com/user-attachments/assets/bfe41daa-2204-44f0-9ccc-20c43ad00ebc" />
 
